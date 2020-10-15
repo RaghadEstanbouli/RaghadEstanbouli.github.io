@@ -1,1 +1,111 @@
 
+	body {background-color: #F6F1E8;}
+	
+	
+	h1{
+	text-align: center;
+	color:#886A46;
+	font-size: 2em;
+	font-family:"impact";
+	position:sticky;
+	 visibility: hidden;
+	}
+	h2{
+	text-align: center;
+	color:#886A46;
+	font-size: 2vm;
+	background-image: url("image/main.png");
+	margin:2%;
+	padding:1%;
+	font-family:"impact";
+	}
+	
+	p{
+	color:#886A46;
+	font-size: 1.5vw;
+	overflow: auto;
+	font-family:"helveticaneueltpro-roman"
+	}
+	
+	img{
+	width:100%;
+	}
+	
+	
+	.nav{
+	position:relative;
+	top:10;
+	left:1%;
+	float:left;
+	width:15%;
+	}
+	
+	.section{
+	z-index:1
+	border: 3px solid ;
+	position:relative;
+	top:10;
+	float:left;
+	width:70%
+	}
+	
+	.simpleDiv{
+	
+	display:inline-block;
+	margin:2%;
+	width:25%;
+	padding: 2%;
+	background-image:url(image/main.png)
+		
+	}
+	.div{
+	
+	display: block;
+	margin-left:50px;
+	margin-bottom:20px
+	}
+	.mainFrame{
+		
+		border: 3px solid green
+	}
+	
+	.indexes{
+	  position: absolute;
+		top: 5%;
+		left: 30%;
+		right: 20%;
+		font-size: 1.5vw;
+		overflow: scroll;
+		border: 3px solid
+	}
+	
+	.logo{
+	  width:100%;
+	}
+	
+	#linkImg:hover{border: 1px solid #777;
+	}
+	
+	#myName{
+	  position: absolute;
+		top: 30%;
+		left: 15%;
+		font-size: 2vw;
+		font-family:"impact";
+		color:#727175
+	}
+	
+	#myfirst{
+	  position: absolute;
+		top: 2%;
+		left: 15%;
+		right: 2%;
+		bottom:10%;
+		overflow: auto;
+	}
+	
+
+	
+
+</style>
+
