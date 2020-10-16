@@ -31,7 +31,6 @@
 	}
 	
 	span{
-		display:inline-block;
 	}
 	.nav{
 	position:relative;
@@ -41,6 +40,27 @@
 	width:15%;
 	}
 	
+	table{
+		
+		border: 0.15 px solid gray;
+		position: relative;
+		font-size:1em;
+		color:#886A46;
+		width:70%;
+		margin:auto
+		
+	}
+	
+	th{
+		background-color: #886A46;
+		color: white;
+		padding:1%;
+	}
+	
+	td{
+		padding:1%;
+		background-color: white
+	}
 	.section{
 	z-index:1;
 	position:relative;
@@ -65,9 +85,10 @@
 	margin-bottom:20px
 	}
 	.mainFrame{
-		
-		border: 3px solid green;
-		margin-bottom:5%
+		width:70%;
+		border: 0px solid ;
+		margin-bottom:5%;
+		margin:auto
 	}
 	
 	.indexes{
@@ -84,7 +105,10 @@
 	  width:100%;
 	}
 	
-	#linkImg:hover{border: 1px solid #777;
+	#linkImg:hover{
+			border: 1px solid #777;
+		color:#886A46;
+		z-index:3
 	}
 	
 	#myName{
