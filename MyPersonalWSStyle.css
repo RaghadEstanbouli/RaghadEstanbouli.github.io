@@ -30,8 +30,7 @@
 	width:100%;
 	}
 	
-	span{
-	}
+	
 	.nav{
 	position:relative;
 	top:10%;
@@ -105,7 +104,7 @@
 	  width:100%;
 	}
 	
-	#linkImg:hover{
+	a img:hover{
 			border: 1px solid #777;
 		color:#886A46;
 		z-index:3
