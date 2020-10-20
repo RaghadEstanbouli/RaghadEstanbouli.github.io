@@ -1,3 +1,19 @@
+/*Some link that I learned from them */
+/*https://www.w3schools.com/howto/howto_css_split_screen.asp */
+/*https://stackoverflow.com/questions/15374918/how-to-put-two-divs-side-by-side */
+/*https://www.w3.org/Style/Examples/007/center.en.html */
+/*https://www.w3schools.com/cssref/trysel.asp?selector=id */
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_center */
+/*https://www.w3schools.com/css/css_align.asp */
+/*https://www.w3schools.com/howto/howto_css_responsive_text.asp */
+/*https://www.w3schools.com/css/css_overflow.asp */
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid */
+/*https://www.w3schools.com/css/css_website_layout.asp */
+/*https://www.w3schools.com/html/html_tables.asp */
+/*https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id2 */
+	
+	
 	body {background-color: #F6F1E8;}
 	
 	
@@ -6,8 +22,7 @@
 	color:#886A46;
 	font-size: 2em;
 	font-family:"impact";
-	position:sticky;
-	 visibility: hidden;
+	visibility: hidden;
 	}
 	h2{
 	text-align: center;
@@ -23,32 +38,22 @@
 	color:#886A46;
 	font-size: 1.5vw;
 	overflow: auto;
-	font-family:"helveticaneueltpro-roman"
+	font-family:"helveticaneueltpro-roman";
+	
 	}
 	
 	img{
 	width:100%;
 	}
-	
-	
-	.nav{
-	position:relative;
-	top:10%;
-	left:1%;
-	float:left;
-	width:15%;
-	}
+
 	
 	table{
-		
-		
 		position: relative;
 		font-size:1em;
 		color:#886A46;
 		width:70%;
 		margin:auto;
 		margin-bottom:20px
-		
 	}
 	
 	th{
@@ -61,10 +66,28 @@
 		padding:1%;
 		background-color: white
 	}
+	
+
+	
+	a img:hover{
+		border: 1px solid #777;
+		color:#886A46;
+		z-index:3
+	}	
+	
+	.nav{
+	position:relative;
+	top:10%;
+	left:7%;
+	float:left;
+	width:15%;
+	}
+	
 	.section{
 	z-index:1;
 	position:relative;
 	top:10%;
+	left:5%;
 	float:left;
 	width:70%
 	}
@@ -105,11 +128,7 @@
 	  width:100%;
 	}
 	
-	a img:hover{
-			border: 1px solid #777;
-		color:#886A46;
-		z-index:3
-	}
+
 	
 	#myName{
 	  position: absolute;
